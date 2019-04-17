@@ -29,15 +29,23 @@
         .jumb1{
             width: 400%;
         }
+        .navletter{
+            font-size: larger;
+            font-family: "Arial Rounded MT Bold";
+            color: black;
+        }
+        .border2{
+            border-bottom-color: aqua;
+        }
     </style>
 
 </head>
 
-<body>
+<body style="background-color: aliceblue">
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav style="background-color: aliceblue" class="navbar navbar-expand-lg navbar-light bg-light border2">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,7 +55,7 @@
             <img src="globus-512.png" class="navbar-brand  icon " href="#" >
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle navletter" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         English
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -71,7 +79,7 @@
         </div>
     </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav style="background-color: ghostwhite" class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -88,7 +96,7 @@
         <div class="padd1">
             <form class="form-inline my-2 my-lg-0">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
+                    <a class="nav-link dropdown-toggle navletter" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
                         English
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -104,16 +112,16 @@
                     </div>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link navletter" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
-                        English
+                    <a class="nav-link dropdown-toggle navletter" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
+                        Resources
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <div class="row justify-content-md-center jumb">
 
-                            <div class="jumbotron jumb1">
+                            <div class="jumbotron">
                                 <!--<h1 class="display-4">Hello, world!</h1>
                                 <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
                                 <hr class="my-4">
@@ -149,7 +157,18 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
+                    <a class="nav-link dropdown-toggle navletter" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
+                        English
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Bosnian</a>
+                        <a class="dropdown-item" href="#">Deutsch</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">English</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navletter" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
                         English
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -162,7 +181,8 @@
             </form>
         </div>
     </nav>
-
+    <img class="picture" src="Picture1.png">
+    <img class="picture" src="Picture2.png">
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
